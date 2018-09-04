@@ -28,12 +28,26 @@
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
   "eslint.run": "onSave",
-  "eslint.validate": [
-    { "language": "javascript", "autofix": true },
-    { "language": "javascriptreact", "autofix": true },
-    { "language": "vue", "autofix": true },
-    { "language": "vue-html", "autofix": true },
-    { "language": "html", "autofix": true }
+  "eslint.validate": [{
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "vue-html",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    }
   ],
   // ===
   // HTML
